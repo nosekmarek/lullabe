@@ -7,9 +7,18 @@ html
 	body
 		header
 			include includes/_menu
-			button(type="button").hamburger.hamburger--elastic.is-active
+			button(type="button").hamburger.hamburger--elastic.is-active#menubutton
 				span.hamburger-box
 				span.hamburger-inner
+				
+			.leftside
+				h1 lulla.be
+				h2 make your family stories momorable
+			
+			.rightside
+				include includes/_signups
+			
+			
 		section.why
 		section.what
 		section.whom
